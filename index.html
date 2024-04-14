@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Upcover - Tailwind CSS Business Landing Page Template</title>
+      <meta
+         name="description"
+         content="A data handler, also known as a data controller or data processor
+      depending on the context, is an entity or organization responsible for collecting,
+      processing, and storing personal data." />
+      <meta name="author" content="Moses Mativo" />
+      <meta name="website" content="dpo360.africa" />
+      <meta name="email" content="mosesmativo24@gmail.com" />
+      <meta name="version" content="1.0.0" />
+      <!-- favicon -->
+      <link href="assets/images/favicon.ico" rel="shortcut icon" />
+
+      <!-- Css -->
+      <link href="assets/libs/swiper/css/swiper.min.css" rel="stylesheet" />
+      <!-- Main Css -->
+      <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
+      <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+      <link
+         href="assets/libs/@mdi/font/css/materialdesignicons.min.css"
+         rel="stylesheet"
+         type="text/css" />
+      <link rel="stylesheet" href="assets/css/tailwind.css" />
+   </head>
+
+   <body
+      class="font-libre_franklin text-base text-black dark:text-white bg-white dark:bg-slate-900">
+      <!-- <div id="preloader">
+         <div id="status">
+            <div class="logo">
+               <img
+                  src="assets/images/logo-icon-64.png"
+                  class="d-block mx-auto animate-[spin_10s_linear_infinite]"
+                  alt="" />
+            </div>
+            <div class="justify-content-center">
+               <div class="text-center">
+                  <h4 class="mb-0 mt-2 text-lg font-semibold">Upcover</h4>
+               </div>
+            </div>
+         </div>
+      </div> -->
+
+      <!-- Navbar Start -->
+      <nav class="navbar" id="navbar">
+         <div
+            class="container relative flex flex-wrap items-center justify-between">
+            <a class="navbar-brand md:me-8" href="index.html">
+               <span class="inline-block dark:hidden">
+                  <img
+                     src="assets/images/logo-blue.png"
+                     class="l-dark logo"
+                     alt="" />
+                  <img
+                     src="assets/images/logo-white.png"
+                     class="l-light logo"
+                     alt="" />
+               </span>
+               <img
+                  src="assets/images/logo-white.png"
+                  class="hidden dark:inline-block max-w-[150px] logo"
+                  alt="" />
+            </a>
+
+            <div
+               class="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
+               <!-- Navbar Button -->
+               <ul class="list-none menu-social mb-0">
+                  <li class="inline">
+                     <a
+                        href="#contact"
+                        class="h-10 p-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase"
+                        >Contact Us</a
+                     >
+                  </li>
+               </ul>
+               <!-- Navbar Collapse Manu Button -->
+            </div>
+            <!-- Navbar Manu -->
+         </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Start Hero -->
+      <section class="swiper-slider-hero relative block h-screen" id="home">
+         <div class="swiper-container absolute end-0 top-0 w-full h-full">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide flex items-center overflow-hidden">
+                  <div
+                     class="slide-inner absolute end-0 top-0 w-full h-full slide-bg-image flex items-center bg-center;"
+                     data-background="assets/images/banner-one.jpg">
+                     <div class="absolute inset-0 bg-black/70"></div>
+                     <div class="container relative">
+                        <div class="grid grid-cols-1">
+                           <div class="">
+                              <h1
+                                 class="font-bold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl capitalize text-white mb-5"
+                                 >Official Website <br />
+                                 Comming Soon: Stay Tuned!</h1
+                              >
+                              <p class="text-white/70 text-lg max-w-xl"
+                                 >We thrive on innovation and creativity,
+                                 seeking innovative solutions to complex
+                                 problems and adapting quickly to changing
+                                 circumstances.</p
+                              >
+
+                              <div class="mt-6">
+                                 <a
+                                    href="#contact"
+                                    class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white"
+                                    >Lets Talk</a
+                                 >
+                              </div>
+                           </div> </div
+                        ><!--end grid--> </div
+                     ><!--end container--> </div
+                  ><!-- end slide-inner -->
+               </div>
+               <!-- end swiper-slide -->
+
+               <div class="swiper-slide flex items-center overflow-hidden">
+                  <div
+                     class="slide-inner absolute end-0 top-0 w-full h-full slide-bg-image flex items-center bg-center;"
+                     data-background="assets/images/banner-two.jpg">
+                     <div class="absolute inset-0 bg-black/70"></div>
+                     <div class="container relative">
+                        <div class="grid grid-cols-1">
+                           <div class="">
+                              <h1
+                                 class="font-bold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl capitalize text-white mb-5"
+                                 >Streamlining Privacy: <br />
+                                 Tailored Solutions for Africa</h1
+                              >
+                              <p class="text-white/70 text-lg max-w-xl"
+                                 >We thrive on innovation and creativity,
+                                 seeking innovative solutions to complex
+                                 problems and adapting quickly to changing
+                                 circumstances.</p
+                              >
+
+                              <div class="mt-6">
+                                 <a
+                                    href="#contact"
+                                    class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white"
+                                    >Contact Us</a
+                                 >
+                              </div>
+                           </div> </div
+                        ><!--end grid--> </div
+                     ><!--end container--> </div
+                  ><!-- end slide-inner -->
+               </div>
+               <!-- end swiper-slide -->
+
+               <div class="swiper-slide flex items-center overflow-hidden">
+                  <div
+                     class="slide-inner absolute end-0 top-0 w-full h-full slide-bg-image flex items-center bg-center;"
+                     data-background="assets/images/banner-three.jpg">
+                     <div class="absolute inset-0 bg-black/70"></div>
+                     <div class="container relative">
+                        <div class="grid grid-cols-1">
+                           <div class="">
+                              <h1
+                                 class="font-bold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl capitalize text-white mb-5"
+                                 >Africa's Data Privacy Hub</h1
+                              >
+                              <p class="text-white/70 text-lg max-w-xl"
+                                 >We understand that setbacks and obstacles are
+                                 inevitable, but we approach them with
+                                 determination, perseverance, and resilience.</p
+                              >
+
+                              <div class="mt-6">
+                                 <a
+                                    href="#contact"
+                                    class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white"
+                                    >Learn More</a
+                                 >
+                              </div>
+                           </div> </div
+                        ><!--end grid--> </div
+                     ><!--end container--> </div
+                  ><!-- end slide-inner -->
+               </div>
+               <!-- end swiper-slide -->
+            </div>
+            <!-- end swiper-wrapper -->
+
+            <!-- swipper controls -->
+            <div class="swiper-pagination"></div>
+            <div
+               class="swiper-button-next bg-transparent w-[35px] h-[35px] leading-[35px] -mt-[30px] bg-none border border-solid border-white/50 text-white hover:bg-teal-500 rounded-full text-center"></div>
+            <div
+               class="swiper-button-prev bg-transparent w-[35px] h-[35px] leading-[35px] -mt-[30px] bg-none border border-solid border-white/50 text-white hover:bg-teal-500 rounded-full text-center"></div> </div
+         ><!--end container--> </section
+      ><!--end section-->
+      <!-- Hero End -->
+
+      <!-- Start About -->
+      <section class="relative md:py-24 py-16">
+         <div class="container relative">
+            <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
+               <div class="md:col-span-6">
+                  <div class="lg:me-8">
+                     <div class="relative">
+                        <img
+                           src="assets/images/handler-image.jpg"
+                           class="shadow dark:shadow-gray-700 rounded-xl"
+                           alt="" />
+                     </div>
+                  </div>
+               </div>
+
+               <div class="md:col-span-6">
+                  <div class="lg:ms-8">
+                     <h6
+                        class="text-teal-500 text-sm font-semibold uppercase mb-2"
+                        >Are you a?</h6
+                     >
+                     <h3 class="font-semibold text-2xl leading-normal mb-4"
+                        >Data Handler<br
+                     /></h3>
+
+                     <p class="text-slate-400 max-w-xl mb-6"
+                        >A data handler, also known as a data controller or data
+                        processor depending on the context, is an entity or
+                        organization responsible for collecting, processing, and
+                        storing personal data. They must follow rules to keep
+                        your information safe and use it properly. For example,
+                        they can't share it with others without your permission,
+                        and they must make sure it's kept secure.</p
+                     >
+
+                     <a
+                        href="#contact"
+                        class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white"
+                        >Get in Touch
+                        <i class="mdi mdi-chevron-right align-middle ms-0.5"></i
+                     ></a>
+                  </div>
+               </div>
+            </div> </div
+         ><!--end container--> </section
+      ><!--end section-->
+
+      <!-- Start About -->
+      <section class="relative md:py-24 py-16 bg-teal-500">
+         <div class="container relative">
+            <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
+               <div class="md:col-span-6">
+                  <div class="lg:me-8">
+                     <h6
+                        class="text-teal-500 text-sm font-semibold uppercase mb-2"
+                        >Or are you a?</h6
+                     >
+                     <h3
+                        class="font-semibold text-2xl leading-normal mb-4 text-white"
+                        >Data Subject<br
+                     /></h3>
+
+                     <p class="max-w-xl mb-6 text-white">
+                        A data subject is just a fancy term for you or anyone
+                        else whose personal information is being collected,
+                        processed, or stored. So, if an organization has your
+                        name and address in their records, you're the data
+                        subject. You have rights over your personal information,
+                        like being able to ask what information they have about
+                        you or to request they delete it if you don't want them
+                        to have it anymore.</p
+                     >
+                     <a
+                        href="#contact"
+                        class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-pink-500 text-white"
+                        >Get in Touch
+                        <i class="mdi mdi-chevron-right align-middle ms-0.5"></i
+                     ></a>
+                  </div>
+               </div>
+               <div class="md:col-span-6">
+                  <div class="lg:ms-8">
+                     <div class="relative">
+                        <img
+                           src="assets/images/data-subject.jpg"
+                           class="shadow dark:shadow-gray-700 rounded-xl"
+                           alt="" />
+                     </div>
+                  </div>
+               </div>
+            </div> </div
+         ><!--end container--> </section
+      ><!--end section-->
+
+      <!-- End Process -->
+      <section class="relative lg:py-24 py-16 dark:bg-slate-800" id="contact">
+         <div class="container relative">
+            <div class="grid grid-cols-1 pb-6 text-center">
+               <h3 class="font-semibold text-2xl leading-normal mb-4"
+                  >Get in touch
+               </h3>
+
+               <p class="text-slate-400 max-w-xl mx-auto"
+                  >Ready to connect? We'd love to hear from you! Whether you're
+                  seeking tailored solutions, have questions, or simply want to
+                  chat, we're here. Drop us a message and let's start the
+                  conversation.</p
+               > </div
+            ><!--end grid-->
+
+            <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
+               <div class="lg:col-span-7 md:col-span-6">
+                  <img src="assets/images/contact.svg" alt="" />
+               </div>
+
+               <div class="lg:col-span-5 md:col-span-6">
+                  <div class="lg:ms-5">
+                     <div
+                        class="bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-700 p-6">
+                        <form
+                           method="post"
+                           name="myForm"
+                           id="myForm"
+                           onsubmit="return validateForm()">
+                           <p class="mb-0" id="error-msg"></p>
+                           <div id="simple-msg"></div>
+                           <div class="grid lg:grid-cols-12 grid-cols-1 gap-3">
+                              <div class="lg:col-span-6">
+                                 <label for="name" class="font-semibold"
+                                    >Your Name:</label
+                                 >
+                                 <input
+                                    name="name"
+                                    id="name"
+                                    type="text"
+                                    class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0"
+                                    placeholder="Name :" />
+                              </div>
+
+                              <div class="lg:col-span-6">
+                                 <label for="email" class="font-semibold"
+                                    >Your Email:</label
+                                 >
+                                 <input
+                                    name="email"
+                                    id="email"
+                                    type="email"
+                                    class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0"
+                                    placeholder="Email :" />
+                              </div>
+
+                              <div class="lg:col-span-12">
+                                 <label for="category" class="font-semibold"
+                                    >Category:</label
+                                 >
+                                 <select
+                                    id="category"
+                                    name="category"
+                                    required
+                                    class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                    <option value="" disabled selected
+                                       >Select a category</option
+                                    >
+                                    <option value="dataHandler"
+                                       >Data Handler</option
+                                    >
+                                    <option value="dataSubject"
+                                       >Data Subject</option
+                                    >
+                                 </select>
+                              </div>
+
+                              <div class="lg:col-span-12" id="industrySection">
+                                 <label for="industry" class="font-semibold"
+                                    >Industry:</label
+                                 >
+                                 <select
+                                    id="industry"
+                                    name="industry"
+                                    required
+                                    class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                    <option value="" disabled selected
+                                       >Select an industry</option
+                                    >
+                                 </select>
+                              </div>
+                              <div class="lg:col-span-12">
+                                 <label for="comments" class="font-semibold"
+                                    >Your Comment:</label
+                                 >
+                                 <textarea
+                                    name="comments"
+                                    id="comments"
+                                    class="mt-2 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0"
+                                    placeholder="Message :"></textarea>
+                              </div>
+                           </div>
+                           <button
+                              type="submit"
+                              id="submit"
+                              name="send"
+                              class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2"
+                              >Send Message</button
+                           >
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div> </div
+         ><!--end container--> </section
+      ><!--end section-->
+
+      <!-- Footer Start -->
+      <footer
+         class="footer bg-teal-500 relative text-gray-200 dark:text-gray-200">
+         <div class="py-[30px] px-0 border-t border-slate-800">
+            <div class="container relative text-center">
+               <div
+                  class="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
+                  <div class="lg:col-span-3 md:text-start text-center">
+                     <a href="#" class="text-[22px] focus:outline-none">
+                        <img
+                           src="assets/images/logo-white.png"
+                           class="mx-auto md:me-auto md:ms-0 footer-logo"
+                           alt="" />
+                     </a>
+                  </div>
+
+                  <div class="lg:col-span-5 text-center mt-6 md:mt-0">
+                     <p class="mb-0"
+                        >©
+                        <script>
+                           document.write(new Date().getFullYear());
+                        </script>
+                        DPO.360 .
+                        <a href="#" target="_blank" class="text-reset"
+                           >All Rights Reserved.</a
+                        >.</p
+                     >
+                  </div>
+
+                  <ul
+                     class="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
+                     <li class="inline"
+                        ><a
+                           href=""
+                           target="_blank"
+                           class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
+                           ><i
+                              data-feather="linkedin"
+                              class="size-4 align-middle"
+                              title="Linkedin"></i></a
+                     ></li>
+                     <li class="inline"
+                        ><a
+                           href=""
+                           target="_blank"
+                           class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
+                           ><i
+                              data-feather="facebook"
+                              class="size-4 align-middle"
+                              title="facebook"></i></a
+                     ></li>
+                     <li class="inline"
+                        ><a
+                           href=""
+                           target="_blank"
+                           class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
+                           ><i
+                              data-feather="instagram"
+                              class="size-4 align-middle"
+                              title="instagram"></i></a
+                     ></li>
+                     <li class="inline"
+                        ><a
+                           href=""
+                           target="_blank"
+                           class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
+                           ><i
+                              data-feather="twitter"
+                              class="size-4 align-middle"
+                              title="twitter"></i></a
+                     ></li>
+                     <li class="inline"
+                        ><a
+                           href="mailto:support@shreethemes.in"
+                           class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
+                           ><i
+                              data-feather="mail"
+                              class="size-4 align-middle"
+                              title="email"></i></a
+                     ></li> </ul
+                  ><!--end icon--> </div
+               ><!--end grid--> </div
+            ><!--end container-->
+         </div> </footer
+      ><!--end footer-->
+      <!-- Footer End -->
+
+      <!-- Back to top -->
+      <a
+         href="#"
+         onclick="topFunction()"
+         id="back-to-top"
+         class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 size-9 text-center bg-teal-500 text-white leading-9"
+         ><i class="mdi mdi-arrow-up"></i
+      ></a>
+      <!-- Back to top -->
+
+      <!-- Switcher -->
+      <div class="fixed top-1/4 -right-1 z-3">
+         <span class="relative inline-block rotate-90">
+            <input
+               type="checkbox"
+               class="checkbox opacity-0 absolute"
+               id="chk" />
+            <label
+               class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+               for="chk">
+               <i
+                  data-feather="moon"
+                  class="w-[18px] h-[18px] text-yellow-500"></i>
+               <i
+                  data-feather="sun"
+                  class="w-[18px] h-[18px] text-yellow-500"></i>
+               <span
+                  class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] size-7"></span>
+            </label>
+         </span>
+      </div>
+      <!-- Switcher -->
+
+      <!-- JAVASCRIPTS -->
+      <script src="assets/libs/swiper/js/swiper.min.js"></script>
+      <script src="assets/libs/feather-icons/feather.min.js"></script>
+      <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+      <script src="assets/libs/tobii/js/tobii.min.js"></script>
+      <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+      <script src="assets/js/plugins.init.js"></script>
+      <script src="assets/js/app.js"></script>
+      <script>
+         const industryOptions = {
+            dataHandler: [
+               "Aviation",
+               "Education",
+               "Finance and Banking",
+               "Government and Public Sector",
+               "Healthcare",
+               "Hospitality and Travel",
+               "Insurance",
+               "Manufacturing and Supply Chain",
+               "Marketing and Advertising",
+               "NGO & Civil Society",
+               "Research & Survey",
+               "Retail and E-commerce",
+               "Technology and IT Services",
+               "Telecommunications",
+            ],
+            dataSubject: [],
+         };
+
+         const categorySelect = document.getElementById("category");
+         const industrySection = document.getElementById("industrySection");
+         const industrySelect = document.getElementById("industry");
+
+         categorySelect.addEventListener("change", () => {
+            const selectedCategory = categorySelect.value;
+            if (selectedCategory === "dataSubject") {
+               industrySection.style.display = "none";
+            } else {
+               industrySection.style.display = "block";
+               const industries = industryOptions[selectedCategory];
+               populateIndustryOptions(industries);
+            }
+         });
+
+         function populateIndustryOptions(options) {
+            industrySelect.innerHTML =
+               '<option value="" disabled selected>Select an industry</option>';
+            options.forEach((option) => {
+               const optionElement = document.createElement("option");
+               optionElement.value = option;
+               optionElement.textContent = option;
+               industrySelect.appendChild(optionElement);
+            });
+         }
+      </script>
+      <!-- JAVASCRIPTS -->
+   </body>
+</html>
