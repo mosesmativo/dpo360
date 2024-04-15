@@ -2703,8 +2703,7 @@ html[dir=rtl] .tns-visually-hidden {
     display: none;
   }
   .w-full{
-    width: 100% !important;
-    background-position: 40%;
+    background-position: 50%;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
@@ -2716,5 +2715,8 @@ html[dir=rtl] .tns-visually-hidden {
   .navbar{
     padding-top: .2rem;
     padding-bottom: .2rem;
+  }
+  .swiper-slider-hero{
+    height: 83vh !important;
   }
 }
