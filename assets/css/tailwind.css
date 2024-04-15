@@ -2684,3 +2684,7 @@ html[dir=rtl] .tns-visually-hidden {
 .bg-pink-500{
   background: #be9db6 !important;
 }
+
+#industrySection {
+  display: none;
+}

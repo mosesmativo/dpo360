@@ -383,9 +383,6 @@
                                     name="industry"
                                     required
                                     class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
-                                    <option value="" disabled selected
-                                       >Select an industry</option
-                                    >
                                  </select>
                               </div>
                               <div class="lg:col-span-12">
@@ -575,12 +572,13 @@
                industrySection.style.display = "block";
                const industries = industryOptions[selectedCategory];
                populateIndustryOptions(industries);
+               // Set the first industry option as selected
+               industrySelect.selectedIndex = 0;
             }
          });
 
          function populateIndustryOptions(options) {
-            industrySelect.innerHTML =
-               '<option value="" disabled selected>Select an industry</option>';
+            industrySelect.innerHTML = "";
             options.forEach((option) => {
                const optionElement = document.createElement("option");
                optionElement.value = option;
