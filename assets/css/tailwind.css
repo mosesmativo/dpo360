@@ -2688,3 +2688,33 @@ html[dir=rtl] .tns-visually-hidden {
 #industrySection {
   display: none;
 }
+
+@media (max-width: 540px){
+  .banner-content h1{
+    font-size: 22px !important;
+  }
+  .banner-content p{
+    font-size: 15px !important;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .swiper-button-next , .swiper-button-prev{
+    display: none;
+  }
+  .w-full{
+    width: 100% !important;
+    background-position: 40%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  .nav-icons a{
+    padding: 2px 15px !important;
+    height: auto !important;
+    font-size: 11px !important;
+  }
+  .navbar{
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+}
